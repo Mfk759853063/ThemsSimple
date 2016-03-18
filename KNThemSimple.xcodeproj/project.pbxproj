@@ -15,6 +15,8 @@
 		0135F6541C9BAC2F00EBAA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0135F6521C9BAC2F00EBAA7D /* LaunchScreen.storyboard */; };
 		0135F65F1C9BAC2F00EBAA7D /* KNThemSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135F65E1C9BAC2F00EBAA7D /* KNThemSimpleTests.m */; };
 		0135F66A1C9BAC2F00EBAA7D /* KNThemSimpleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135F6691C9BAC2F00EBAA7D /* KNThemSimpleUITests.m */; };
+		0135F6791C9BAC5900EBAA7D /* KNThemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0135F6781C9BAC5900EBAA7D /* KNThemManager.m */; };
+		0135F67C1C9BACD700EBAA7D /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 0135F67B1C9BACD700EBAA7D /* Skins */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0135F6651C9BAC2F00EBAA7D /* KNThemSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNThemSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0135F6691C9BAC2F00EBAA7D /* KNThemSimpleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNThemSimpleUITests.m; sourceTree = "<group>"; };
 		0135F66B1C9BAC2F00EBAA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0135F6771C9BAC5900EBAA7D /* KNThemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNThemManager.h; path = KNThemManager/KNThemManager.h; sourceTree = "<group>"; };
+		0135F6781C9BAC5900EBAA7D /* KNThemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNThemManager.m; path = KNThemManager/KNThemManager.m; sourceTree = "<group>"; };
+		0135F67B1C9BACD700EBAA7D /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,10 @@
 			children = (
 				0135F6471C9BAC2F00EBAA7D /* AppDelegate.h */,
 				0135F6481C9BAC2F00EBAA7D /* AppDelegate.m */,
+				0135F67A1C9BAC5C00EBAA7D /* KNThemManager */,
 				0135F64A1C9BAC2F00EBAA7D /* ViewController.h */,
 				0135F64B1C9BAC2F00EBAA7D /* ViewController.m */,
+				0135F67B1C9BACD700EBAA7D /* Skins */,
 				0135F64D1C9BAC2F00EBAA7D /* Main.storyboard */,
 				0135F6501C9BAC2F00EBAA7D /* Assets.xcassets */,
 				0135F6521C9BAC2F00EBAA7D /* LaunchScreen.storyboard */,
@@ -138,6 +145,15 @@
 				0135F66B1C9BAC2F00EBAA7D /* Info.plist */,
 			);
 			path = KNThemSimpleUITests;
+			sourceTree = "<group>";
+		};
+		0135F67A1C9BAC5C00EBAA7D /* KNThemManager */ = {
+			isa = PBXGroup;
+			children = (
+				0135F6771C9BAC5900EBAA7D /* KNThemManager.h */,
+				0135F6781C9BAC5900EBAA7D /* KNThemManager.m */,
+			);
+			name = KNThemManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0135F6541C9BAC2F00EBAA7D /* LaunchScreen.storyboard in Resources */,
+				0135F67C1C9BACD700EBAA7D /* Skins in Resources */,
 				0135F6511C9BAC2F00EBAA7D /* Assets.xcassets in Resources */,
 				0135F64F1C9BAC2F00EBAA7D /* Main.storyboard in Resources */,
 			);
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0135F6791C9BAC5900EBAA7D /* KNThemManager.m in Sources */,
 				0135F64C1C9BAC2F00EBAA7D /* ViewController.m in Sources */,
 				0135F6491C9BAC2F00EBAA7D /* AppDelegate.m in Sources */,
 				0135F6461C9BAC2F00EBAA7D /* main.m in Sources */,

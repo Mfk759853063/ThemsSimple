@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>normalLabel</key>
+	<string>255,100,233</string>
+	<key>backGroud</key>
+	<string>255,128,245</string>
+</dict>
+</plist>

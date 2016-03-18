@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KNThemManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[KNThemManager shareInstance] setThemName:@"Red"];
+    UIImage *image = THEMIMAGE(@"btn_biaoqian");
+    self.view.backgroundColor = THEMCOLOR(@"themColor");
+    
 }
 
 - (void)didReceiveMemoryWarning {
